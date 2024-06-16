@@ -4,8 +4,116 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Howework - CSS portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <header class="header">
+    <div class="header-container">
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__list-item">
+            <a href="#" class="link link--active">Home</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#" class="link">About me</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#" class="link">Skills</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#" class="link">Portfolio</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#" class="link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="hero__title">Denis Novik</h1>
+      <div class="image-wrapper">
+        <img class="hero__image" src="./portrait.jpg" alt="#">
+      </div>
+
+    </section>
+    
+
+    <section class="section section--grey">
+      <h2 class="section__title">About me</h2>
+      <div class="section__container">
+        <p class="section__text">
+          Hi, I'm Denis – UX/UI designer from Minsk.
+          I'm interested in design and everything connected with it.
+        </p>
+        <p class="section__text">
+          I'm studying at courses "Web and mobile design 
+          interfaces" in IT-Academy.
+        </p>
+        <p class="section__text">
+          Ready to implement excellent projects
+          with wonderful people.
+        </p>
+      </div>
+    </section>
+    
+    <section class="section">
+      <h2 class="section__title">Skills</h2>
+      <p>I work in such programs as</p>
+      <ul>
+        <li>
+          <img src="./assets/image/ps-icon.svg" alt="ps-icon">
+          <p>Adobe Photoshop</p>
+          <img src="./assets/image/star-active-icon.svg" alt="star">
+        </li>
+        <li>
+          <img src="./assets/image/ai-icon.svg" alt="ai-icon">
+          <p>Adobe Illustrator</p>
+          <img src="./assets/image/star-active-icon.svg" alt="star-active-icon">
+        </li>
+        <li>
+          <img src="./assets/image/ae-icon.svg" alt="ae-icon">
+          <p>Adobe After Effects</p>
+          <img src="./assets/image/star-active-icon.svg" alt="star-active-icon">
+        </li>
+        <li>
+          <img src="./assets/image/figma-icon.svg" alt="figma-icon">
+          <p>Figma</p>
+          <img src="./assets/image/star-active-icon.svg" alt="star">
+        </li>
+      </ul>
+    </section>
+
+    <section class="section section--grey">
+      <h2 class="section__title">Portfolio</h2>
+      <img src="./assets/image/portfolio-store.png" alt="fashion-store">
+      <h3>Online fashion store - Homepage</h3>
+      <img src="./assets/image/reebok.png" alt="reebok-store">
+      <h3>Reebok Store - Concept</h3>
+      <img src="./assets/image/braun.png" alt="braun-store">
+      <h3>Braun Landing Page - Concept</h3>
+    </section>
+    
+    <section class="section">
+      <h2 class="section__title">Contacts</h2>
+      <p>
+        Want to know more or just chat? 
+        You are welcome!
+      </p>
+      <button>Send message</button>
+      <ul>
+        <li><a href="#"><img src="./assets/image/linkedin-icon.svg" alt="linkedin-icon"></a></li>
+        <li><a href="#"><img src="./assets/image/instagram-icon.svg" alt="instagram-icon"></a></li>
+        <li><a href="#"><img src="./assets/image/behance-icon.svg" alt="behance-icon"></a></li>
+        <li><a href="#"><img src="./assets/image/dribbble-icon.svg" alt="dribble-icon"></a></li>
+      </ul>
+      <p>
+        Like me on
+        LinkedIn, Instagram, Behance, Dribble
+      </p>
+    </section>
+  </main>
 </body>
 </html>
