@@ -48,7 +48,12 @@ body {
   cursor: pointer;
 }
 
+.link:hover {
+  font-weight: 600;
+}
+
 .link--active {
+  font-weight: 600;
   color: rgba(7, 7, 7, 1);
 }
 
@@ -90,19 +95,25 @@ body {
   object-fit: cover;
 }
 
-.section--grey {
-  background-color: #F6F6F6;
+.section {
   padding: 100px 0;
 }
 
-.section__title {
+
+.section--grey {
+  background-color: #F6F6F6;
+}
+
+.section__title,
+.footer__title {
   color: rgba(7, 7, 7, 1);
   font-size: 34px;
   line-height: 46px;
   font-weight: 700;
 }
 
-.section__text {
+.section__text,
+.footer__text {
   font-size: 18px;
   line-height: 24px;
   max-width: 480px;
@@ -145,4 +156,8 @@ line-height: 24px;
 .portfolio__container {
   max-width: 970px;
   margin: 0 auto;
+}
+
+.link__image:hover {
+  opacity: 0.5;
 }
